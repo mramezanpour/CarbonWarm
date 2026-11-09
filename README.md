@@ -69,7 +69,7 @@ python paper/figures/calc_numbers.py results/raw_runs.csv
 
 ```
 H. Jangholian, M. Ramezanpour, CarbonWarm: Carbon-aware multi-tier model residency and cloud–edge placement
-for serverless LLM inference, Sustainable Computing: Informatics and Systems (under review), 2026.
+for serverless LLM inference, (under review), 2026.
 ```
 
 ## License

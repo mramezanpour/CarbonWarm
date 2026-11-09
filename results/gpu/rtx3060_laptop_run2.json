@@ -1,0 +1,417 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "vram_GB": 6.0,
+  "power_limit_W": 95.0,
+  "torch": "2.8.0+cu126",
+  "cuda": "12.6",
+  "energy_source": "counter",
+  "models": {
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "params_B": 0.5,
+      "size_GB": 0.988097824,
+      "ssd_points": [
+        {
+          "size_GB": 0.272269312,
+          "s": 0.29462750000001847,
+          "J": 3.287,
+          "avg_W": 11.15646027611066
+        },
+        {
+          "size_GB": 0.026150656,
+          "s": 0.03441289999997821,
+          "J": 0.816,
+          "avg_W": 23.712038218241318
+        },
+        {
+          "size_GB": 0.29824768,
+          "s": 0.3631808000000092,
+          "J": 3.6,
+          "avg_W": 9.912418277617949
+        },
+        {
+          "size_GB": 0.391397888,
+          "s": 0.46855600000000663,
+          "J": 5.843,
+          "avg_W": 12.470227678228254
+        }
+      ],
+      "ssd_load_s": 1.1607772000000125,
+      "ssd_load_J": 13.546,
+      "ssd_load_avg_W": 11.669767462696418,
+      "ssd_bw_GBs": 0.851238139412102,
+      "gpu_allocated_GB": 0.99632128,
+      "all_tensors_on_gpu": true,
+      "ssd_maybe_cached": false,
+      "P_resident_W": 9.010434520586548,
+      "dram_points": [
+        {
+          "size_GB": 0.272269312,
+          "s": 0.02152036989247322,
+          "J": 0.8388172043010753,
+          "avg_W": 38.97782466064641,
+          "window_s": 2.0013944000000095,
+          "repetitions": 93
+        },
+        {
+          "size_GB": 0.498477056,
+          "s": 0.040904651020408016,
+          "J": 1.6753061224489796,
+          "avg_W": 40.95637245782005,
+          "window_s": 2.0043278999999927,
+          "repetitions": 49
+        },
+        {
+          "size_GB": 0.745791488,
+          "s": 0.06510433225806415,
+          "J": 2.637258064516129,
+          "avg_W": 40.50818083906336,
+          "window_s": 2.018234299999989,
+          "repetitions": 31
+        },
+        {
+          "size_GB": 0.988065536,
+          "s": 0.08924211304347829,
+          "J": 3.731565217391304,
+          "avg_W": 41.81394960441271,
+          "window_s": 2.0525686000000007,
+          "repetitions": 23
+        }
+      ],
+      "dram_load_s": 0.08924211304347829,
+      "dram_load_J": 3.731565217391304,
+      "dram_load_avg_W": 41.81394960441271,
+      "dram_bw_GBs": 11.071740709664951,
+      "decode": [
+        {
+          "batch": 1,
+          "step_s": 0.03490408593750005,
+          "avg_W": 35.16959310145229,
+          "J_per_token": 1.2275625,
+          "J_per_token_above_bare": 0.9070734747670638
+        },
+        {
+          "batch": 8,
+          "step_s": 0.034925859374999924,
+          "avg_W": 36.58329810245371,
+          "J_per_token": 0.159712890625,
+          "J_per_token_above_bare": 0.11962677203074942
+        },
+        {
+          "batch": 32,
+          "step_s": 0.03913394687500027,
+          "avg_W": 75.40108839328462,
+          "J_per_token": 0.092210693359375,
+          "J_per_token_above_bare": 0.08098170670332105
+        }
+      ],
+      "engine_start_s": 0.7914001999999982,
+      "engine_start_J": 32.898,
+      "model_device": "cuda:0",
+      "prefill_tps": 7848.548136322777,
+      "prefill_avg_W": 99.90102980799811
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "params_B": 1.5,
+      "size_GB": 3.087467144,
+      "ssd_points": [
+        {
+          "size_GB": 0.466747392,
+          "s": 0.5277360000000044,
+          "J": 18.769,
+          "avg_W": 35.565131050373374
+        },
+        {
+          "size_GB": 0.462469632,
+          "s": 0.48885649999999714,
+          "J": 18.931,
+          "avg_W": 38.72506553559196
+        },
+        {
+          "size_GB": 0.930447872,
+          "s": 1.0206300000000397,
+          "J": 30.364,
+          "avg_W": 29.750252295149878
+        },
+        {
+          "size_GB": 1.227763712,
+          "s": 1.34353150000004,
+          "J": 24.855,
+          "avg_W": 18.499752331820474
+        }
+      ],
+      "ssd_load_s": 3.3807540000000813,
+      "ssd_load_J": 92.91900000000001,
+      "ssd_load_avg_W": 27.484697200682977,
+      "ssd_bw_GBs": 0.9132480931768256,
+      "gpu_allocated_GB": 3.096749056,
+      "all_tensors_on_gpu": true,
+      "ssd_maybe_cached": false,
+      "P_resident_W": 9.277591900658141,
+      "dram_points": [
+        {
+          "size_GB": 0.775062528,
+          "s": 0.06156486666666675,
+          "J": 2.377333333333333,
+          "avg_W": 38.615097571883474,
+          "window_s": 2.031640600000003,
+          "repetitions": 33
+        },
+        {
+          "size_GB": 1.551352832,
+          "s": 0.14013279333333534,
+          "J": 5.685466666666667,
+          "avg_W": 40.571992689409875,
+          "window_s": 2.10199190000003,
+          "repetitions": 15
+        },
+        {
+          "size_GB": 2.327643136,
+          "s": 0.22472652222222045,
+          "J": 9.408888888888889,
+          "avg_W": 41.86817290566587,
+          "window_s": 2.022538699999984,
+          "repetitions": 9
+        },
+        {
+          "size_GB": 3.087428608,
+          "s": 0.297902014285715,
+          "J": 12.189714285714286,
+          "avg_W": 40.918535965397155,
+          "window_s": 2.085314100000005,
+          "repetitions": 7
+        }
+      ],
+      "dram_load_s": 0.297902014285715,
+      "dram_load_J": 12.189714285714286,
+      "dram_load_avg_W": 40.918535965397155,
+      "dram_bw_GBs": 10.363906452270164,
+      "decode": [
+        {
+          "batch": 1,
+          "step_s": 0.039387121093749755,
+          "avg_W": 68.93016961147816,
+          "J_per_token": 2.7149609375,
+          "J_per_token_above_bare": 2.3533087209465937
+        },
+        {
+          "batch": 8,
+          "step_s": 0.04062935078124985,
+          "avg_W": 81.46858272043934,
+          "J_per_token": 0.413751953125,
+          "J_per_token_above_bare": 0.36711965823033527
+        },
+        {
+          "batch": 32,
+          "step_s": 0.04496902187500007,
+          "avg_W": 92.57258138884066,
+          "J_per_token": 0.130090576171875,
+          "J_per_token_above_bare": 0.11718728920766766
+        }
+      ],
+      "engine_start_s": 4.090280199999995,
+      "engine_start_J": 96.604,
+      "model_device": "cuda:0",
+      "prefill_tps": 3685.879880713249,
+      "prefill_avg_W": 79.87744007091295
+    }
+  },
+  "P_bare_W": 9.18199163865256,
+  "P_ctx_W": 9.293427273302541,
+  "context_overhead_W": 0.11143563464998074,
+  "calibration_card": {
+    "p_ctx_W": 0.11143563464998074,
+    "bare_idle_W": 9.18199163865256,
+    "resident_extra_W": {
+      "Qwen/Qwen2.5-0.5B-Instruct": -0.2829927527159928,
+      "Qwen/Qwen2.5-1.5B-Instruct": -0.015835372644399826
+    },
+    "t_init_s_DRAM": 0.0,
+    "bw_DRAM_GBs": 10.05076854991386,
+    "p_load_extra_W_DRAM": 31.66337382187971,
+    "t_init_s_SSD": 0.016760192226778492,
+    "bw_SSD_GBs": 0.9246830834997594,
+    "p_load_extra_W_SSD": 14.149106821805692,
+    "prefill_tps_7b": 789.831403009982,
+    "step_s_7b": 0.18380656510416551,
+    "step_slope": 0.004571578488704956,
+    "p_dyn_decode_W": 83.27915411553812
+  },
+  "formula_check": [
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.272269312,
+      "load_s_meas": 0.02152036989247322,
+      "load_s_sim": 0.02732914781679019,
+      "load_s_err_pct": 26.991998526700957,
+      "load_J_meas_above_bare": 0.6412173478876759,
+      "load_J_sim": 0.8696441569841659,
+      "load_J_err_pct": 35.623928430661266
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.498477056,
+      "load_s_meas": 0.040904651020408016,
+      "load_s_sim": 0.049677802091214134,
+      "load_s_err_pct": 21.44780813905256,
+      "load_J_meas_above_bare": 1.2997199587975923,
+      "load_J_sim": 1.5785036632532439,
+      "load_J_err_pct": 21.44952091938038
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.745791488,
+      "load_s_meas": 0.06510433225806415,
+      "load_s_sim": 0.07425215919563093,
+      "load_s_err_pct": 14.051026437543525,
+      "load_J_meas_above_bare": 2.039470630082526,
+      "load_J_sim": 2.3618239046974803,
+      "load_J_err_pct": 15.805732618072105
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.988065536,
+      "load_s_meas": 0.08924211304347829,
+      "load_s_sim": 0.09834389412896452,
+      "load_s_err_pct": 10.198975321272249,
+      "load_J_meas_above_bare": 2.9121448816103994,
+      "load_J_sim": 3.116027548440127,
+      "load_J_err_pct": 7.001116878394512
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 0.775062528,
+      "load_s_meas": 0.06156486666666675,
+      "load_s_sim": 0.07671160030212285,
+      "load_s_err_pct": 24.602885469509243,
+      "load_J_meas_above_bare": 1.8120452423652393,
+      "load_J_sim": 2.4500704943240175,
+      "load_J_err_pct": 35.210227484495476
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 1.551352832,
+      "load_s_meas": 0.14013279333333534,
+      "load_s_sim": 0.15467315062489867,
+      "load_s_err_pct": 10.376127489998742,
+      "load_J_meas_above_bare": 4.3987685299789545,
+      "load_J_sim": 4.925123127113673,
+      "load_J_err_pct": 11.96595350601993
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 2.327643136,
+      "load_s_meas": 0.22472652222222045,
+      "load_s_sim": 0.23008792361250865,
+      "load_s_err_pct": 2.3857448321060177,
+      "load_J_meas_above_bare": 7.345451840860992,
+      "load_J_sim": 7.245218144296447,
+      "load_J_err_pct": -1.3645681536834653
+    },
+    {
+      "tier": "DRAM",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 3.087428608,
+      "load_s_meas": 0.297902014285715,
+      "load_s_sim": 0.3060833639106377,
+      "load_s_err_pct": 2.7463223585578103,
+      "load_J_meas_above_bare": 9.454380481405096,
+      "load_J_sim": 9.731165235259512,
+      "load_J_err_pct": 2.927582134004417
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.272269312,
+      "load_s_meas": 0.29462750000001847,
+      "load_s_sim": 0.31481583438936517,
+      "load_s_err_pct": 6.852155480851391,
+      "load_J_meas_above_bare": 0.581732758482723,
+      "load_J_sim": 4.757775391021933,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.026150656,
+      "load_s_meas": 0.03441289999997821,
+      "load_s_sim": 0.050722836108930136,
+      "load_s_err_pct": 47.394831905948806,
+      "load_J_meas_above_bare": 0.5000210399384133,
+      "load_J_sim": 0.7232307841003807,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.29824768,
+      "load_s_meas": 0.3631808000000092,
+      "load_s_sim": 0.33449056401299865,
+      "load_s_err_pct": -7.899711655189319,
+      "load_J_meas_above_bare": 0.2652769310807681,
+      "load_J_sim": 5.163388857334732,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "size_GB": 0.391397888,
+      "load_s_meas": 0.46855600000000663,
+      "load_s_sim": 0.4354600592212276,
+      "load_s_err_pct": -7.063390668090594,
+      "load_J_meas_above_bare": 1.5407227257594505,
+      "load_J_sim": 6.759559015394758,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 0.466747392,
+      "load_s_meas": 0.5277360000000044,
+      "load_s_sim": 0.5206234397038287,
+      "load_s_err_pct": -1.3477496885138829,
+      "load_J_meas_above_bare": 13.92333246058401,
+      "load_J_sim": 6.5945584029889,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 0.462469632,
+      "load_s_meas": 0.48885649999999714,
+      "load_s_sim": 0.5209822031059133,
+      "load_s_err_pct": 6.571601913018709,
+      "load_J_meas_above_bare": 14.44232370449907,
+      "load_J_sim": 6.469076258164523,
+      "load_J_err_pct": null
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 0.930447872,
+      "load_s_meas": 1.0206300000000397,
+      "load_s_sim": 1.0239816496606713,
+      "load_s_err_pct": 0.3283902746961668,
+      "load_J_meas_above_bare": 20.992583873841674,
+      "load_J_sim": 12.730218655049587,
+      "load_J_err_pct": -39.358495688030146
+    },
+    {
+      "tier": "SSD",
+      "model": "Qwen2.5-1.5B-Instruct",
+      "size_GB": 1.227763712,
+      "load_s_meas": 1.34353150000004,
+      "load_s_sim": 1.346141390048979,
+      "load_s_err_pct": 0.1942559626580232,
+      "load_J_meas_above_bare": 12.5187050007333,
+      "load_J_sim": 21.992026549205875,
+      "load_J_err_pct": 75.67333480513888
+    }
+  ]
+}
